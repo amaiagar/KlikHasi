@@ -1,0 +1,22 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Indie Flower', cursive;
+}
+
+.container,
+.row,
+.col-md-12 {
+    height: 100%;
+}
+
+.col-md-12 {
+    padding-top: 4%;
+}
+
+.btn {
+
+    margin-top: 5%;
+    height: 15%;
+
+}

@@ -1,0 +1,37 @@
+#col-bienvenida{
+
+    padding-top: 6%;
+
+}
+
+#nombre, #lema {
+    width: 40%;
+    font-size: 7vmin;
+}
+
+#nombre span {
+    color: #337ab7;
+}
+
+#lema{
+
+    text-align: right;
+       font-style: italic;
+        font-size: 5vmin;
+}
+
+
+
+img {
+
+        width: 48%;
+    height: auto;
+
+}
+
+.logorow {
+
+        width: 44%;
+    padding-bottom: 2%;
+
+}

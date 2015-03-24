@@ -1,0 +1,150 @@
+html,
+body,
+.container,
+.row,
+.column {
+    height: 100%;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Indie Flower', cursive;
+}
+
+.column {
+    margin-top: 10%;
+}
+
+#list-colum {
+    margin-top: 3%;
+}
+
+#nombre,
+#lema {
+    width: 40%;
+    font-size: 7vmin;
+}
+
+#nombre {
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+#nombre span {
+    color: #337ab7;
+}
+
+#lema {
+    text-align: right;
+    font-style: italic;
+    font-size: 5vmin;
+}
+
+.btn {
+    width: 50%;
+    height: 10%;
+    text-align: center;
+    font-size: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+#volver {
+    width: 15%;
+    height: 3%;
+    font-size: 2vmin;
+    padding: 0;
+    margin-bottom: 1%;
+    display: flex;
+}
+
+.top-margin {
+    margin-top: 5%;
+}
+
+.btn:hover {
+    background-color: #26aaf2;
+    border-color: #2e6da4;
+}
+
+img {
+    width: 45%;
+    height: auto;
+}
+
+.logorow {
+    width: 40%;
+}
+
+#logorow1 {
+    margin-bottom: 2%;
+}
+
+#logo1 {
+    margin-right: 2%;
+}
+
+#poriginal,
+#ptraducida,
+#dshow,
+#dstats {
+    background-color: #D3DEE7;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+#poriginal,
+#ptraducida {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    font-size: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #337ab7;
+    background-color: #E0E6F8;
+    border-color: #337ab7;
+}
+
+#ptraducida {
+    margin-top: 3%;
+}
+
+#panel {
+    width: 100%;
+    margin-top: 3%;
+    height: 15%;
+}
+
+#dshow {
+    width: 58%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    font-size: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dshow:hover {
+    cursor: pointer;
+    cursor: hand;
+}
+
+#dstats {
+    width: 38%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    font-size: 4vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
