@@ -42,3 +42,8 @@ body {
         font-weight: bold;
 
 }
+
+.btn-success:hover{
+    background-color: #3333AD;
+    border-color: #3333AD;
+}
